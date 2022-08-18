@@ -7,10 +7,41 @@ img {
   height: 100px;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
 }
+
+.plants {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  border-color: aqua;
+
+}
+
+.plant {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 200px;
+  flex-direction: column;
+  
+}
+
+.text{
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +55,4 @@ img {
   justify-content: center;
   background: #eee;
 }
+
